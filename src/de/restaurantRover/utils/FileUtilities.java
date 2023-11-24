@@ -5,7 +5,10 @@ import de.restaurantRover.main.enums.Category;
 import de.restaurantRover.main.enums.Place;
 import de.restaurantRover.main.enums.Veggie;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Arrays;
 
 public class FileUtilities {
